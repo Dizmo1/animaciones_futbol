@@ -1,0 +1,40 @@
+body{
+    background-image: url(./images/CampoFutbol.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    position: fixed;
+    width: 130px;
+    height: 130px;
+    opacity: 0;
+    animation: jugador_animation 3s forwards;
+}
+
+@keyframes jugador_animation { 
+    0% { opacity: 0; transform: translate(-200px, -200px); }
+    100% { opacity: 1; transform: translate(0, 0); }
+}
+
+.casillas{ animation-delay: 5s; top: 45%; left: 5%; }
+.roberto_carlos{ animation-delay: 10s; top: 5%; left: 25%; }
+.maldini{ animation-delay: 15s; top: 30%; left: 15%; }
+.beckenbauer{ animation-delay: 20s; top: 50%; left: 15%; }
+.cafu{ animation-delay: 25s; top: 75%; left: 25%; }
+.iniesta{ animation-delay: 30s; top: 50%; left: 30%; }
+.zidane{ animation-delay: 35s; top: 30%; left: 30%; }
+.maradona{ animation-delay: 40s; top: 20%; left: 50%; }
+.messi{ animation-delay: 45s; top: 65%; left: 50%; }
+.pele{ animation-delay: 55s; top: 50%; left: 75%; }
+.cristiano{animation-delay: 50s; top: 30%; left: 75%;}
+
+
+
+
